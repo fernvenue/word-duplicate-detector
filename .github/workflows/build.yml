@@ -3,8 +3,18 @@ name: Build Windows Executable
 on:
   push:
     branches: [ master ]
+    paths-ignore:
+      - 'LICENSE'
+      - 'README.md'
+      - 'README.zh_Hans.md'
+      - 'README.zh_Hant.md'
   pull_request:
     branches: [ master ]
+    paths-ignore:
+      - 'LICENSE'
+      - 'README.md'
+      - 'README.zh_Hans.md'
+      - 'README.zh_Hant.md'
   workflow_dispatch:
 
 jobs:
