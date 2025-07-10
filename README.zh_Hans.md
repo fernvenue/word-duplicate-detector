@@ -1,4 +1,4 @@
-# Word文档重复内容检测工具
+# Word 文档重复内容检测工具
 
 [English](README.md) | [简体中文](README.zh_Hans.md) | [繁體中文](README.zh_Hant.md)
 
@@ -58,3 +58,7 @@ cd word-duplicate-detector
 ```bash
 build.bat
 ```
+
+## 许可证
+
+本工具以 GPLv3 协议开源, 详情请参考 [LICENSE](./LICENSE).

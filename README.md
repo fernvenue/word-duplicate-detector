@@ -58,3 +58,7 @@ Run build script:
 ```bash
 build.bat
 ```
+
+## License
+
+This tool is open source under the GPLv3 license. For details, please refer to [LICENSE](./LICENSE).
