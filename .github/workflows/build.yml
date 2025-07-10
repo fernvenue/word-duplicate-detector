@@ -8,6 +8,7 @@ on:
       - 'README.md'
       - 'README.zh_Hans.md'
       - 'README.zh_Hant.md'
+      - 'assets/**'
   pull_request:
     branches: [ master ]
     paths-ignore:
@@ -15,6 +16,7 @@ on:
       - 'README.md'
       - 'README.zh_Hans.md'
       - 'README.zh_Hant.md'
+      - 'assets/**'
   workflow_dispatch:
 
 jobs:
